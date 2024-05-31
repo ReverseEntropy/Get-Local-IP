@@ -27,6 +27,7 @@ String ip;
 			public void run() {
 				try {
 					frame frame = new frame();
+					frame.setTitle("Your IP");
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
